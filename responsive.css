@@ -1,0 +1,83 @@
+@media (max-width: 768px) {
+    .navbar {
+        padding: 12px 20px;
+    }
+    .navbar .logo {
+        font-size: 1.2rem;
+    }
+    .nav-actions .user-badge {
+        font-size: 0.8rem;
+        padding: 6px 12px 6px 10px;
+    }
+    .hero {
+        padding: 100px 16px 60px;
+    }
+    .hero-title {
+        font-size: clamp(2rem, 8vw, 3.4rem);
+    }
+    .auth-card {
+        padding: 32px 22px 28px;
+    }
+    .dashboard {
+        padding: 80px 16px 40px;
+    }
+    .tabs-nav .tab-btn {
+        padding: 10px 16px;
+        font-size: 0.8rem;
+    }
+    .tabs-nav .tab-btn i {
+        font-size: 0.9rem;
+    }
+    .ai-card {
+        padding: 20px 18px;
+    }
+    .todo-input-group {
+        flex-direction: column;
+    }
+    .todo-input-group input {
+        min-width: unset;
+    }
+    .todo-item {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .todo-item .todo-info {
+        flex-wrap: wrap;
+    }
+    .dash-header h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar .logo {
+        font-size: 1rem;
+    }
+    .nav-actions .user-badge {
+        font-size: 0.7rem;
+        padding: 4px 10px;
+    }
+    .nav-actions .user-badge .logout-btn {
+        font-size: 0.7rem;
+    }
+    .hero-title {
+        font-size: clamp(1.6rem, 7vw, 2.6rem);
+    }
+    .btn-primary {
+        padding: 12px 24px;
+        font-size: 0.9rem;
+    }
+    .btn-outline {
+        padding: 10px 20px;
+        font-size: 0.85rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero-title {
+        font-size: 5.4rem;
+    }
+    .dashboard {
+        padding: 120px 60px 80px;
+    }
+}
